@@ -1,0 +1,14 @@
+﻿<Window x:Class="Menu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Menu"
+        mc:Ignorable="d"
+        Title="Welcome to Space Aliens Restaurant" Height="450" Width="800">
+    <Grid>
+        <Image Margin="0,0,0,-4" Source="/Images/Alien-restaurant.jpg" Stretch="Fill"/>
+        <Button Content="Open Menu" Margin="0,0,0,233" Background="#FF8BBC63" BorderBrush="#FF034C7A" FontFamily="Segoe UI Black" Click="OpenWindow" Height="23" VerticalAlignment="Bottom" HorizontalAlignment="Center" Width="87"/>
+
+    </Grid>
+</Window>
